@@ -9,7 +9,7 @@
     "lint-stylelint": "stylelint --config .stylelintrc.js src/**/*.{less,css,scss}",
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
   },
-  "hysky": {
+  "husky": {
     "hooks": {
       "pre-commit": "lint-staged",
       "commit-msg": "commitlint --config .commitlintrc.js -E HUSKY_GIT_PARAMS"
